@@ -1,0 +1,12 @@
+local
+ $(SML_LIB)/basis/basis.mlb
+ $(SML_LIB)/mlyacc-lib/mlyacc-lib.mlb
+ ast.sml
+ typechecker.sml
+ evaluator.sml
+ COL226a3.yacc.sig
+ COL226a3.yacc.sml
+ COL226a3.lex.sml
+in
+ load-COL226a3.sml
+end
